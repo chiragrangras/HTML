@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>09_Practical</title>
+  </head>
+  <body>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+      <fieldset>
+        <legend>Registration Form</legend>
+
+        <table cellspacing="20px" height="900px" align="center">
+          <tbody>
+            <tr>
+              <td>First Name :-</td>
+              <td>
+                <input
+                  type="text"
+                  name="First Name"
+                  placeholder="Enter your Name."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Last Name :-</td>
+              <td>
+                <input
+                  type="text"
+                  name="Last Name"
+                  placeholder="Enter your Last Name."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Email Address :-</td>
+              <td colspan="2">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Enter your Email Address."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Mobile Number :-</td>
+              <td>
+                <input
+                  type="tel"
+                  name="number"
+                  placeholder="Enter your Mobile number."
+                  required
+                  maxlength="10"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Gender :-</td>
+              <td colspan="2">
+                <input type="radio" name="Gender" required /> Mail
+                <input type="radio" name="Gender" /> Femail
+                <input type="radio" name="Gender" /> Other
+              </td>
+            </tr>
+            <tr>
+              <td>Date of Birth(DOB) :-</td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td>Address :-</td>
+              <td colspan="2">
+                <textarea name="Address" id="" cols="30" rows="5"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>City :-</td>
+              <td>
+                <select>
+                  <option>Ahmedabad</option>
+                  <option>Rajasthan</option>
+                  <option>Delhi</option>
+                  <option>Mumbai</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Pin Code :-</td>
+              <td>
+                <input
+                  type="text"
+                  name="pincode"
+                  placeholder="Enter your pin code."
+                  required
+                  maxlength="6"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Country :-</td>
+              <td colspan="2">
+                <input
+                  type="text"
+                  name="Country"
+                  placeholder="India"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Hobbies :-</td>
+              <td colspan="2">
+                <input type="checkbox" name="Hobbies" />Drawing
+                <input type="checkbox" name="Hobbies" />Singing
+                <input type="checkbox" name="Hobbies" />Dancing
+                <input type="checkbox" name="Hobbies" />Sketcging
+                <br />
+                <input type="checkbox" name="Hobbies" />Others
+                <input
+                  type="text"
+                  name="Hobbies"
+                  placeholder="Ex-Teaching"
+                  maxlength="50"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Qualification :-</td>
+              <td colspan="2">
+                <input type="checkbox" name="Qualification" />High School(10th)
+                <br />
+                <input type="checkbox" name="Qualification" />Higher
+                School(12th)
+                <br />
+                <input
+                  type="checkbox"
+                  name="Qualification"
+                />Graduation(Bachelors)
+                <br />
+                <input type="checkbox" name="Qualification" />Post
+                Graduation(Masters)
+                <br />
+                <input type="checkbox" name="Qualification" />Ph.d
+              </td>
+            </tr>
+            <tr>
+              <td>Courses Applied For :-
+                <br />
+              </td>
+              <td colspan="2">
+                <input type="checkbox" name="Qualification"/>BCA(Bachelor of Computer Applications)
+                <br />
+                <input type="checkbox" name="Qualification"/>B.Com(Bachelor of Commerce)
+                <br />
+                <input type="checkbox"name="Qualification"/>B.Sc(Bachelor of Science)
+                <br />
+                <input type="checkbox" name="Qualification"/>MCA(Master of Computer Applications)
+                <br />
+                <input type="checkbox"name="Qualification"/>M.Com(Master of Commerce)
+                <br />
+                <input type="checkbox"name="Qualification"/>M.Sc(Master of Science)
+                <br />
+                <input type="checkbox"name="Qualification"/>MA(Master of Arts)
+              </td>
+            </tr>
+            <tr>
+              <td class="button" colspan="3">
+                <input type="submit" name="Submit" />
+                <input type="reset" name="Reset" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
