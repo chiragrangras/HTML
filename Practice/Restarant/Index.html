@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restarant_Page</title>
+    <style>
+        * {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <table width="100%" height="100%">
+            <tr>
+                <th><img src="../../image/Restaurant_logo.jpg" width="90"></th>
+                <th><a href="#Home">Home</a></th>
+                <th><a href="#Menu">Menu</a></th>
+                <th><a href="#Reservation">Reservation</a></th>
+                <th><a href="#Contact_Us">Contact_Us</a></th>
+            </tr>
+        </table>
+    </nav>
+    <header id="header">
+        <img src="../../image/Restaurant_Image.jpg" width="1270" height="650" alt="" />
+    </header>
+    <section id="Home">
+        <h2>Home</h2>
+    </section>
+    <section id="Menu">
+        <h2>Menu</h2>
+        <table width="100%" height="100%">
+            <td colspan="1">
+                <ul>
+                    <li><a href="Breakfast.html" target="Display_viewer">Breakfast</a></li>
+                    <li><a href="Lunch.html" target="Display_viewer">Lunch</a></li>
+                    <li><a href="Dinner.html" target="Display_viewer">Dinner</a></li>
+                </ul>
+            </td>
+            <td colspan="5">
+                <iframe src="" name="Display_viewer" width="100%" height="100%"></iframe>
+            </td>
+        </table>
+    </section>
+    <section id="Reservation">
+        <h2>Reservation</h2>
+        <form>
+            <label>Name :-</label>
+            <input type="text" name="text" placeholder="Enter your Name.">
+            <br>
+            <br>
+            <label>Person :-</label>
+            &nbsp;&nbsp;&nbsp;<label>Adult :-</label>
+            <select name="No. of Adult">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;<label>Child :-</label>
+            <select name="No. of Child">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <br>
+            <label>Phone:-</label>
+            <input type="number" name="number" placeholder="Enter your Phone Number.">
+            <br>
+            <br>
+            <label>E-Mail :-</label>
+            <input type="text" name="name" placeholder="Enter your Email Address.">
+            <br>
+            <br>
+            <label>Address :-</label>
+            <br>
+            <br>
+            <textarea cols="50" rows="5" value="address" placeholder="Enter your Address."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+    <section id="Contact_Us">
+        <h1>Lalit Palace</h1>
+        <p>Telephone :- 075749 17194</p>
+        <p>Address :- 40, Dhanlaxmi Chambers,<br>
+            Near Police Commissioner Office,<br>
+            Shahibagh, Ahmedabad-380004.</p>
+        <p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29373.554897622347!2d72.55670983096546!3d23.0349917365781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e840c95555555%3A0x1e02039e757cff38!2sLalit%20Palace%20Restaurant!5e0!3m2!1sen!2sin!4v1690445049192!5m2!1sen!2sin"
+                width="1230" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+    </section>
+</body>
+
+</html>
